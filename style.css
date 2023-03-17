@@ -1,0 +1,125 @@
+*{
+	font-family: 'Tilt Neon', cursive;
+}
+
+
+body{
+	margin: 0px;
+}
+/*Navbar*/
+.navbar-nav{
+	background: white;
+}
+
+.navbar-toggler{
+	color: #440027;
+	font-size: 1.1em;
+	border-bottom: 4px solid pink;
+	border-right: 4px solid pink;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+.nav-link{
+	color: #440027;
+	font-size: 1.1em;
+	border-bottom: 4px solid pink;
+	border-right: 4px solid pink;
+	width: 200px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+/*Name of your company size and style*/
+h1{
+	color: #440027;
+	font-size: 2em;
+	border-bottom: 4px solid pink;
+	border-right: 4px solid pink;
+	width: 250px;
+	height: 55px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+h2{
+	text-align: center;
+	color: #440027;
+	font-size: 2em;
+}
+
+/*Iamges*/
+.container-img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transform: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+a{
+	text-decoration-line: none;
+}
+
+/*Footer*/
+footer{
+	margin: 10px 0px 0px 0px;
+	font-size: 1em;
+	background: pink;
+	color: white;
+	clear: both;
+	width: auto;
+	padding: 10px 0 10px 0;
+}
+.row-icons{
+	padding: 10px 0;
+}
+/*Icons*/
+.fab{
+	color: white;
+	font-size: 2em;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+.fab:hover{
+	color: #440027;
+}
+
+.make{
+	color: white;
+	cursor: pointer;
+}
+
+.make:hover{
+	color: #440027;
+}
+
+.col-sm{
+	padding: 20px 0 20px 0;
+}
