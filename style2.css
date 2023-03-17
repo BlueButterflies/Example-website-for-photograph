@@ -4,6 +4,7 @@
 
 body{
 	margin: 0px;
+	padding: 0px;
 }
 
 /*Navbar*/
@@ -71,7 +72,7 @@ p{
 	text-align: center;
 	border-bottom: 5px solid pink;
 	border-right: 5px solid pink;
-	line-height: 400px;
+	line-height: 450px;
 	font-style: italic;
 	font-size: 150%;
 	-moz-box-shadow:4px 4px 5px #888888;
@@ -95,20 +96,6 @@ p{
 	-webkit-box-shadow: 4px 4px 5px #888888;
 	-o-box-shadow: 4px 4px 5px #888888;
 	box-shadow: 4px 4px 5px #888888;
-}
-
-.description:hover {
-	color: #440027;
-}
-
-.container-service,.container-contacts{
-	height: 500px;
-	padding: 0 20px;
-}
-
-.container-about{
-	height: 700px;
-	padding: 0 20px;
 }
 
 img{
