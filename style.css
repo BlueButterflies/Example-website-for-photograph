@@ -65,7 +65,7 @@ h2{
 }
 
 /*Iamges*/
-.container-img{
+.img{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
